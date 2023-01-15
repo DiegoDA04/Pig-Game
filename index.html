@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pig Game</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+<main class="main">
+
+  <section class="player player--1">
+    <h2 class="player__name">Player 1</h2>
+    <p class="player__score">0</p>
+    <div class="current">
+      <p class="current__label">Current</p>
+      <p class="current__score">0</p>
+    </div>
+  </section>
+
+  <div class="dice">
+    <a class="dice__btn dice__button--roll">Roll</a>
+    <img src="assets/images/dice-6.png" alt="dice" class="dice__img">
+    <a class="dice__btn dice__button--hold">Hold</a>
+  </div>
+
+  <section class="player player--2">
+    <h2 class="player__name">Player 2</h2>
+    <p class="player__score">0</p>
+    <div class="current">
+      <p class="current__label">Current</p>
+      <p class="current__score">0</p>
+    </div>
+  </section>
+</main>
+<div class="modal hidden">
+  <h1 class="modal__title"></h1>
+  <a class="modal__btn">New Game</a>
+</div>
+<div class="overlay hidden"></div>
+<!-- Link JS -->
+<script src="assets/scripts/main.js"></script>
+</body>
+</html>
